@@ -1,0 +1,58 @@
+---
+layout: home
+banner-heading:
+banner-image: /uploads/nathans-sign-2400-x-800-25.jpg
+title: Nathans Boutique | Custom Fashion
+---
+
+<body>
+  <header class="header-image mob-hide" style="background-image: url('{{page.banner-image}}');">
+     <!--<h1 class="front-title mob-show">Nathans Boutique</h1>-->
+    <!--</div>-->
+    <!--  {% include navigation.html %}   <!-- this places the navbar on the banner 
+    </div>-->
+  </header>
+
+
+<!-- GRID SECTION ---->
+<section class="mob-hide">
+    <div class="grid-equalHeight editable mob-hide">
+       <div class="col-6_sm-12-middle">
+          <h5 style="margin: 10%;">Custom Made Clothing</h5>
+       </div>
+    <div class="col-6_sm-12 box-img tile-image4"></div>
+    </div> <!-- end grid -->
+</section>
+
+<!-- let's connect section -->
+<section class="connect">
+    <div class="mob-show desktop-hide header-image-small">
+        <!--<img class="mob-show header-image-small editable" src="url('images/header-image-small.jpg')">-->
+    </div>
+    <div class="grid">
+      <div class="col-8_sm-12">
+        <h5 style="font-size: 6vw; padding: 1rem .5rem 1rem;">Let's <span>connect</span></h5>
+        <p class="font-size: 3vw; connect-text editable">
+           Got a question or want to make a purchase?
+           <br/>
+           Send me an email or visit in store.
+           <br/>
+           <br/>Nathans Boutique
+           <br/>1/124 Targo Street (Cnr Walker Street)
+           <br/>Bundaberg, QLD, 4670
+           <br/>Ph: 0427 556 630
+        </p>
+      </div>
+      <div class="col-4_sm-12 container">
+        <div></div> <!--this div is for spacing-->
+        <form method="post" action="/index.html">
+          <input type="hidden" name="_to" value="nathansboutique@bigpond.com" /><!--sends the form to my email-->
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." />
+          <input type="text" id="email" name="email" placeholder="Your email.." />
+          <textarea id="subject" name="subject" placeholder="Tell us what you want to say..." style="height:200px"></textarea>
+          <input type="submit" value="Submit" />
+          </form>
+      </div>
+    </div>
+</section>
+</body>
