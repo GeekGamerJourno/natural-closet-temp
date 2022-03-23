@@ -123,7 +123,7 @@ img {
   text-align: left;
   min-height: 75vh;
 }
-  
+
 .header-image-small {
   background-image: url('images/header-image-small.jpg');
   background-size: contain;
@@ -131,9 +131,9 @@ img {
   background-color: #485651;
   background-repeat: no-repeat;
   text-align: left;
-  min-height: 50vh; 
+  min-height: 50vh;
 }
-  
+
 h1, h2, {
   font-family: 'Gideon Roman', cursive;
   text-decoration: none;
@@ -198,14 +198,14 @@ h6 {
 }
 
 a {
-  font-size: 1.5vw; 
+  font-size: 1.5vw;
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
-}  
+}
 
 
 p {
-  font-size: 1.5vw; 
+  font-size: 1.5vw;
   font-family: 'Montserrat', sans-serif;
   color: black;
 }
@@ -357,6 +357,27 @@ span {
 }
 
 .product-loop h3 {
+    font-size: 1.5vw;
+    font-weight: normal;
+    margin-bottom: 0;
+    color: black;
+}
+
+.fabric-loop a {
+  color: black;
+  text-decoration: none;
+  width: 100%;
+  margin: 0;
+}
+
+.fabric-loop .box-img {
+  min-height: 40vh;
+  display: flex;
+  background-position: center;
+  background-size: cover;
+}
+
+.fabric-loop h3 {
     font-size: 1.5vw;
     font-weight: normal;
     margin-bottom: 0;
@@ -594,7 +615,7 @@ input[type=submit]:hover {
 @media (min-width: 40em){
 
   .desktop-hide {
-    display: none; !important 
+    display: none; !important
   }
 } /* End media query*/
 
@@ -603,26 +624,26 @@ input[type=submit]:hover {
   .banner {
     background-image: none;
   }
-  
+
   .header-image {
     display: none;
   }
-  
+
   .mob-hide {
     display: none;
   }
-  
+
   .header-image-small {
     display: block;
   }
-  
+
   .connect-text {
     font-size: 3vw;
     padding: 1rem .5rem 1rem;
   }
 
 /*this allows me to style the phone number links on mobile*/
-  .connect-text a[href^=tel] { 
+  .connect-text a[href^=tel] {
     font-size: 3vw;
     font-family: 'Montserrat', sans-serif;
     text-align: left;
@@ -656,10 +677,9 @@ input[type=submit]:hover {
   .mob-center {
     text-align: center;
   }
-} /* End media query*/ 
-  
-  
+} /* End media query*/
+
+
   textarea {
     margin: 0;
   }
-

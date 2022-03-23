@@ -3,7 +3,7 @@ name: Kate Top
 description: |-
   Relaxed fit
   Great top for figure faults.
-layout: product
+layout: clothing
 type: Top
 date: 2020-04-22 00:00:00
 image_path: /uploads/custom_resized_a158094f-6ab5-417b-a5ec-73430df1a11e.jpg

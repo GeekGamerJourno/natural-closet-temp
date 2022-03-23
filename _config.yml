@@ -5,9 +5,10 @@ plugins:
   - jekyll-paginate
 
 collections:
-   products:
+   clothing:
     output: true
-
+   fabrics:
+    output: true
 
 # This is the configuration for the pagination plugin.
 paginate: 2
